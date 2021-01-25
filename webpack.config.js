@@ -9,8 +9,9 @@ module.exports = {
   },
   devServer: {
     port: 8080,
+    publicPath: path.resolve(__dirname, "/dist/"),
     proxy: {
-      "/api": "http://localhost:3000"
+      "/": "http://localhost:3000"
     },
   },
   module: {
