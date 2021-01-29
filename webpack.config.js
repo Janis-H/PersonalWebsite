@@ -26,11 +26,11 @@ module.exports = {
         },
       },
       {
-        test: /\.s[ac]css/,
+        test: /\.(s[ac]ss|css)$/,
         use: [
           "style-loader",
           "css-loader",
-          "sass-loader"
+          "sass-loader",
         ],
       },
       {
