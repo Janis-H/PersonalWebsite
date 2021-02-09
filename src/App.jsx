@@ -1,7 +1,11 @@
 import React from 'react';
 
+import Navbar from './Navbar';
+
 const App = () => (
-  <p>hello!</p>
+  <>
+    <Navbar />
+  </>
 );
 
 export default App;
