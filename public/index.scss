@@ -5,6 +5,21 @@ $primaryBlack: rgba(27, 32, 34);
 $secondaryBlack: rgba(54, 64, 69);
 $ternaryBlack: rgba(76, 91, 97);
 
+@mixin flex($justCont, $alItems) {
+  display: flex;
+  justify-content: $justCont;
+  align-items: $alignItems;
+}
+
+@mixin flex-column($justCont, $alItems) {
+  @include flex($justCont, $alItems);
+  flex-direction: column;
+}
+
+@mixin border($color) {
+  border: 0.25em solid $color;
+}
+
 /* Global Styles */
 *,
 *::after,
@@ -25,7 +40,8 @@ html {
 }
 
 /* React App Root */
-.root {
+#root {
+  @include border(red);
   width: 100%;
   height: 100vh;
   display: grid;

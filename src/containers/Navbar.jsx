@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
     <nav id="navbar">
       <NavButton name="Home"/>
+      <div className="flex-container"></div>
     </nav>
   );
 };
