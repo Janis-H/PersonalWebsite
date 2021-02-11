@@ -1,5 +1,9 @@
-// $primaryColor: ;
-// $secondaryColor: ;
+$primaryColor: #59a5d8;
+$secondaryColor: #d85966;
+$ternaryColor: #59d88c;
+$primaryBlack: rgba(27, 32, 34);
+$secondaryBlack: rgba(54, 64, 69);
+$ternaryBlack: rgba(76, 91, 97);
 
 /* Global Styles */
 *,
@@ -17,7 +21,7 @@ html {
 }
 
 * + * {
-  margin-top: 1em;
+  margin-top: 0em;
 }
 
 /* React App Root */
