@@ -4,9 +4,8 @@ import NavButton from '../components/NavButton.jsx';
 
 const Navbar = () => {
   return (
-    <nav id="navbar">
+    <nav className="navbar">
       <NavButton name="Home"/>
-      <div className="flex-container"></div>
     </nav>
   );
 };
